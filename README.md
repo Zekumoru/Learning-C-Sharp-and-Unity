@@ -3,7 +3,7 @@ I will be writing here all of those nifty code snippets that I learn from the C#
 
 ## Courses 1 Week 1 (C1w1)
 ### C#
-Started with basic input/output and some math functions.
+Started with basic input/output and some math functions.  
 Functions of note:
 
 ```csharp
@@ -16,4 +16,12 @@ float.Parse(Console.ReadLine());
 Math.PI
 Math.Sin(<radians>);
 Math.Cos(<radians>);
+```
+
+### Unity
+Output to console.  
+Functions of note:
+
+```csharp
+print(string);
 ```
