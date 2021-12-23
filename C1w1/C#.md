@@ -1,12 +1,12 @@
 # C-Sharp Code Snippets
 ## Printing to Screen
-
  - From exercise 1 and 3: Printing to the screen
 ```csharp
 Console.WriteLine(string);
 Console.WriteLine(); // an empty new line
 ```
 
+## Taking inputs
  - From exercise 4: Taking an integer input
 ```csharp
 Console.Write("Input: "); // writes to screen without newline
@@ -14,6 +14,7 @@ int input = int.Parse(Console.ReadLine());
 Console.WriteLine("Your input is " + input);
 ```
 
+## Using math and floats
 - From exercise 6: Using math and taking float inputs
 ```csharp
 Console.Write("Enter an angle in degrees: ");
