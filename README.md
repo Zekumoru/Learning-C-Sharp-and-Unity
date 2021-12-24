@@ -1,10 +1,9 @@
 # Learning C# and Unity
 I will be writing here all of those nifty code snippets that I learn from the C#/Unity course.
 
-## Courses 1 Week 1 (C1w1)
+## Course 1 Week 1 (C1w1)
 ### C#
 Started with basic input/output and some math functions.  
-Functions of note:
 
 ```csharp
 Console.Write(string);
@@ -19,9 +18,21 @@ Math.Cos(<radians>);
 ```
 
 ### Unity
-Output to console.  
-Functions of note:
+Output to console.
 
 ```csharp
 print(string);
 ```
+
+## Course 1 Week 2 (C1w2)
+### C#
+Creating objects, accessing methods, and random number generator.  
+
+```csharp
+Random rand = new Random(); // Create object
+rand.next(int);             // Accessing method, returns a random integer
+                            // between 0 to the specified int
+```
+
+### Unity
+Unity wasn't taught in this week.
