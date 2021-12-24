@@ -1,5 +1,11 @@
 # Learning C# and Unity
-I will be writing here all of those nifty code snippets that I learn from the C#/Unity course.
+I will be writing here all of those nifty code snippets that I learn from the
+C#/Unity course.  
+Also, when I said nifty codes, only nifty codes! I won't be explaining whatever
+basic concepts were required like what a class, inheritance, virtual, etc. are.  
+That aside, there will surely be notes when they are necessary.
+
+> Writing such a description for myself, ah! I ought mine future self aide-memoires.
 
 ## Course 1 Week 1 (C1w1)
 ### C#
