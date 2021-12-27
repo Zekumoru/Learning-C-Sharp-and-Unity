@@ -14,3 +14,18 @@ transform.localScale = newScale;
 
 > TL:DR; `transform.localScale` is basically like `transform.GetLocalScale()`.\
 > It doesn't look like it because of a syntax exclusive to C# called *[Get Set Properties](https://www.w3schools.com/cs/cs_properties.php)*.
+
+## Applying Force With Rigidbody2D
+From exercise 12.\
+We take the Rigidbody2D component and add force to it by supplying the coordinates using `Vector2`.
+
+```csharp
+GetComponent<Rigidbody2D>().AddForce(
+    new Vector2(<force x>, <force y>),
+    ForceMode2D.Impulse);
+```
+
+`<force x>` when negative, applies force to the left, and when positive, to the right.
+`<force y>` when negative, applies force downward, and when positive, upward.
+
+> Check [ForceMode2D.Impulse](https://docs.unity3d.com/ScriptReference/ForceMode2D.Impulse.html) to learn about it

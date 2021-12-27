@@ -59,9 +59,29 @@ Before we debug, we must:
 - Fix it the bug
 
 ### Debugging using Visual Studio
-- Select a breakpoint
+- Select a breakpoint\
   A breakpoint stops the program from running in that point which you
   then check the environment (look at the variables' values, etc.) to
   debug.
 - Run the debugger by either going to the Debug tab and selecting _Attach Unity Debugger_ or simply just click the _Attach to Unity_ button just next the green play button.
 - While debugging, we can step over, i.e., execute the next line of code or do whatever you want.
+
+## 2D Physics
+Unity has a 2D and a 3D physics engines. However, throughout this course, only the 2D physics engine will be used.
+
+### Adding 2D Physics to a game object
+- Select game object and go to Inspector
+- Add component
+- Select 2D Physics
+- Select Rigidbody 2D
+
+> If you run the game, you'll notice that the game object will fall out the screen because of gravity.
+
+### Turning off gravity
+- Go to Edit
+- Go to Project Settings
+- Select Physics 2D
+- Set gravity's `y` to `0`
+
+> By default, you'll notice the gravity is set to `x: 0` and `y: -9.81`\
+> Remember that `-9.81` value? Yep, that's the gravity, or gravitational acceleration, on Earth.
