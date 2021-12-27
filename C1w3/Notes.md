@@ -85,3 +85,23 @@ Unity has a 2D and a 3D physics engines. However, throughout this course, only t
 
 > By default, you'll notice the gravity is set to `x: 0` and `y: -9.81`\
 > Remember that `-9.81` value? Yep, that's the gravity, or gravitational acceleration, on Earth.
+
+## Collisions
+### Collision Detection
+Detecting collisions between game objects.\
+Applying collision detection is as simple as just attaching a 2D collider component to a game object. Collision detections will then be handled by the Unity physics engine.
+
+### Collision Resolution
+Resolving a collision between game objects. In other words, do something when a collision has happened.\
+
+### Materials
+A physic material contains the friction and the bounciness of a game object.
+
+## Prefabs
+A prefab lets you easily reuse an already existing customized game object without having to set it up again.
+
+Say, for example, you created a game object, added components, did whatever. Now you need another of this game object with same configurations. Rather than doing everything again for that new game object. We can turn our existing customized game object into a prefab which will let us to easily reuse that game object.
+
+> Basically, a prefab can be likened to a class.
+
+> Also, prefabs are super useful when you want to create that customized game object in runtime. (_spawning_, like, spawning an enemy or something)
