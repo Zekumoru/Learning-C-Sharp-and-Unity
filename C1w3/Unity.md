@@ -29,3 +29,7 @@ GetComponent<Rigidbody2D>().AddForce(
 `<force y>` when negative, applies force downward, and when positive, upward.
 
 > Check [ForceMode2D.Impulse](https://docs.unity3d.com/ScriptReference/ForceMode2D.Impulse.html) to learn about it
+
+## Resolving Collisions
+Go to `Notes.md` then to _Collisions_ for more info.\
+From exercise 13,

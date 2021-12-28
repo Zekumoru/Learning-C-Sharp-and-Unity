@@ -94,14 +94,38 @@ Applying collision detection is as simple as just attaching a 2D collider compon
 ### Collision Resolution
 Resolving a collision between game objects. In other words, do something when a collision has happened.\
 
+### Adding colliders
+#### Box Collider 2D
+Select the game object then `Add Component` > `Physics 2D` > `Box Collider 2D`.
+
+Box colliders are more suitable to entities like the player, enemies, etc.\
+To make the boundaries of a box collier compact on the sprite, click the button next to Edit Collider then resize the collider in the scene view, afterward, click the same button again to save.
+
+#### Edge Collider 2D
+Select the game object then `Add Component` > `Physics 2D` > `Edge Collider 2D`.
+
+Edge colliders are more suitable like the boundaries of a map, the camera, etc.\
+To edit the boundaries, it's the same procedure as described on [Box Collider 2D](#box-collider-2d).
+
 ### Materials
 A physic material contains the friction and the bounciness of a game object.
+
+#### Adding A Physics Material 2D
+- Create a new folder called `Materials` in the Project window
+- Right-click that folder, go to `Create`
+- Go to `2D`
+- Select `Physics Material 2D`
+
+In the inspector, you can then edit the bounciness and friction of the material.
+
+> There's also this option called `Physics Material` when creating one.\
+> We don't select that one, rather we go to `2D` as of we are working with 2D and not 3D.
 
 ## Prefabs
 A prefab lets you easily reuse an already existing customized game object without having to set it up again.
 
 Say, for example, you created a game object, added components, did whatever. Now you need another of this game object with same configurations. Rather than doing everything again for that new game object. We can turn our existing customized game object into a prefab which will let us to easily reuse that game object.
 
-> Basically, a prefab can be likened to a class.
+> Basically, a prefab can be likened to a class which we can then create instances of it.
 
-> Also, prefabs are super useful when you want to create that customized game object in runtime. (_spawning_, like, spawning an enemy or something)
+> Also, prefabs are super useful when you want to create customized game object in runtime. (_spawning_, like, spawning an enemy or something)
