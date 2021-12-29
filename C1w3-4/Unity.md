@@ -1,4 +1,13 @@
 # Unity Code Snippets
+## Content
+[Scaling A Sprite](#scaling-a-sprite)
+
+[Applying Force With Rigidbody2D](#applying-force-with-rigidbody2d)
+
+[Resolving Collisions](#resolving-collisions)
+
+[Bonus: Moving Game Object To A Random Direction](#bonus-moving-game-object-to-a-random-direction)
+
 ## Scaling A Sprite
 From exercise 11.\
 We take the current scale of the game object then we scale it using its `x` and `y` properties.

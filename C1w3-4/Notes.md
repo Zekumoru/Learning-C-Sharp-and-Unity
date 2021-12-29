@@ -32,7 +32,6 @@
 [Prefabs](#prefabs)
   - [Editing A Game Object](#editing-a-game-object)
 
-
 ## Sprites
 A sprite is a graphical asset which can be either a single image or a sprite
 sheet or sprite strip.
