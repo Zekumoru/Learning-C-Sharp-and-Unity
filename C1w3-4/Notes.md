@@ -2,18 +2,23 @@
 ## Content
 [Sprites](#sprites)
   - [Adding sprites on Unity](#adding-sprites-on-unity)
+
 [Game Object](#game-object)
   - [Adding game objects](#adding-game-objects)
+
 [Unity's Component System](#unitys-component-system)
   - [A C# script is a component too!](#a-c-script-is-a-component-too)
     - [Creating scripts on Unity](#creating-scripts-on-unity)
     - [Creating a component with a C# script](#creating-a-component-with-a-c-script)
+
 [Debugging A Script](#debugging-a-script)
   - [The Debugging Process](#the-debugging-process)
   - [Debugging using Visual Studio](#debugging-using-visual-studio)
+
 [2D Physics](#2d-physics)
   - [Adding 2D Physics to a game object](#adding-2d-physics-to-a-game-object)
   - [Turning off gravity](#turning-off-gravity)
+
 [Collisions](#collisions)
   - [Collision Detection](#collision-detection)
   - [Collision Resolution](#collision-resolution)
@@ -23,8 +28,10 @@
   - [Materials](#materials)
     - [Creating A Physics Material 2D](#creating-a-physics-material-2d)
     - [Adding A Physics Material To A Game Object](#adding-a-physics-material-to-a-game-object)
+
 [Prefabs](#prefabs)
   - [Editing A Game Object](#editing-a-game-object)
+
 
 ## Sprites
 A sprite is a graphical asset which can be either a single image or a sprite
