@@ -21,6 +21,17 @@ That aside, there will surely be notes when they are necessary.
   - [C#](#c-2)
   - [Unity](#unity-2)
 
+[Course 2 Week 1 (C2w1)](#course-2-week-1-c2w1)
+  - [Summary](#summary-1)
+  - [C#](#c-3)
+    - [SerializeField](#serializefield)
+    - [as Keyword](#as-keyword)
+  - [Unity](#unity-3)
+    - [Animation related](#animation-related)
+    - [Spawning related](#spawning-related)
+    - [Tags](#tags)
+
+
 ## Course 1 Week 1 (C1w1)
 ### C#
 Started with basic input/output and some math functions.  
@@ -69,3 +80,36 @@ Codes related solely to C# wasn't taught in this week.
 
 ### Unity
 Changing game object's scale using `transform.localScale`, using `Rigidbody2D` to add gravity to a game object, and resolving collisions by overriding `OnCollisionEnter2D`.
+
+## Course 2 Week 1 (C2w1)
+### Summary
+Learned about time properties (`Time.deltaTime` and `Time.time`) and made a `Timer` script with those.\
+Made a spawner script which spawns game objects into the game world and also, learned to make explosion animations and attach these to a game object to explode it.
+
+### C#
+#### SerializeField
+`[SerializeField]` shows up the private fields of a script in the Unity Editor (Inspector window).
+
+#### as Keyword
+`as` keyword is a type casting method which returns `null` instead of an exception if cannot successfully perform the cast. It also cannot be used on primitive types.
+
+```csharp
+GameObject gameObject = Instantiate(somePrefab) as GameObject;
+int num = someFloat as int; // NOT POSSIBLE!
+```
+
+### Unity
+#### Animation related
+`Animator.GetCurrentAnimatorStateInfo(<layerIndex>).normalizedTime` returns a float where the integer part tells how many times the animation has looped and the decimal part tells the progress of the animation.
+
+#### Spawning related
+`Camera.main.ScreenToWorldPoint(<Vector3>)` returns a `Vector3` which contains the coordinates in the game world by the specifed `<Vector3>` screen coordinates.
+
+`Instantiate<GameObject>(<Object>, <Vector3>, <Quaternion>)` creates a game object in the game world in the `<Vector3>` location. `<Quaternion>` specifies the rotation of the game object when spawned.
+
+`Quaternion.identity` means no rotation.
+
+`Destroy(<Object>)` erases the specified game object `<Object>` from the game world.
+
+#### Tags
+`GameObject.FindWithTag(<string>);` returns one active `GameObject` with the tag `<string>`.

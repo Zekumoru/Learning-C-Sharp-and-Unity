@@ -1,4 +1,19 @@
 # Unity
+## Contents
+[Time.deltaTime](#timedeltatime)
+
+[Fluctuating Game Object's Size](#fluctuating-game-objects-size)
+
+[Timer Implementation](#timer-implementation)
+
+[Attaching Component Dynamically](#attaching-component-dynamically)
+
+[Time.time](#timetime)
+
+[Spawning A Game Object](#spawning-a-game-object)
+
+[Find A Game Object With A Tag](#find-a-game-object-with-a-tag)
+
 ## Time.deltaTime
 From exercise 1.\
 `Time.deltaTime` returns _"the interval in seconds from the last frame to the current one"_. (From the Scripting API, [Time.deltaTime](https://docs.unity3d.com/ScriptReference/Time-deltaTime.html))
@@ -166,3 +181,40 @@ startTime = Time.time; // assuming startTime is a field in the class
 float elapsedTime = Time.time;
 print("It took " + elapsedTime + " to execute.");
 ```
+
+## Spawning A Game Object
+We first specify the location to spawn then instantiate the game object there.
+
+```csharp
+// decide where to spawn
+Vector3 location = new Vector3(
+    <x_location>,
+    <y_location>,
+    -Camera.main.transform.position.z);
+// convert the spawn location from camera to world point
+Vector3 worldLocation =  Camera.main.ScreenToWorldPoint(location);
+
+// spawn it to the game world
+GameObject gameObject = Instantiate(prefabGameObject) as GameObject;
+
+// alternative way to spawn:
+Instantiate<GameObject>(prefabGameObject, worldLocation,
+    Quaternion.identity);
+```
+
+`Camera.main.transform.position.z` gives us the `z` position of the main camera, in other words, the screen.\
+What basically happens here is that we are deciding in **which point in the screen** do we want to spawn the game object then from that, we convert those coordinates to the coordinates of the game world.\
+
+> Why do we need to convert, i.e., use `Camera.main.ScreenToWorldPoint(location)`? Since the game world is 3D and the camera is 2D.
+
+> **A quick note:** the camera, or screen, coordinates are in pixels.
+
+`Quaternion` means rotation and `identity` means no rotation.
+
+## Find A Game Object With A Tag
+
+```csharp
+GameObject gameObject = GameObject.FindWithTag(<string>);
+```
+
+Returns one active `GameObject` tagged `<string>`. Returns `null` if no `GameObject` was found. (From the Scripting API, [GameObject.FindWithTag](https://docs.unity3d.com/ScriptReference/GameObject.FindWithTag.html))
