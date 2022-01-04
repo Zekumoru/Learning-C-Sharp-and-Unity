@@ -12,7 +12,11 @@
 
 [Spawning A Game Object](#spawning-a-game-object)
 
-[Find A Game Object With A Tag](#find-a-game-object-with-a-tag)
+[Tags](#tags)
+  - [Find A Game Object](#find-a-game-object)
+  - [Find How Many Game Objects In Scene](#find-how-many-game-objects-in-scene)
+
+[OnBecameInsivisible](#onbecameinsivisible)
 
 ## Time.deltaTime
 From exercise 1.\
@@ -211,10 +215,29 @@ What basically happens here is that we are deciding in **which point in the scre
 
 `Quaternion` means rotation and `identity` means no rotation.
 
-## Find A Game Object With A Tag
-
+## Tags
+### Find A Game Object
 ```csharp
 GameObject gameObject = GameObject.FindWithTag(<string>);
 ```
 
 Returns one active `GameObject` tagged `<string>`. Returns `null` if no `GameObject` was found. (From the Scripting API, [GameObject.FindWithTag](https://docs.unity3d.com/ScriptReference/GameObject.FindWithTag.html))
+
+### Find How Many Game Objects In Scene
+```csharp
+GameObject.FindGameObjectsWithTag(<string>).Length
+```
+
+`GameObject.FindGameObjectsWithTag` returns an array of game objects tagged `<string>`. And the `Length` property will tell us how many there are.
+
+## OnBecameInsivisible
+We would want to remove a game object that are not visible anymore on the screen. We can use `OnBecameInsivisible` to check if it is outside the camera then destroy it.
+
+```csharp
+void OnBecameInvisible()
+{
+    Destroy(gameObject);
+}
+```
+
+> `OnBecameInvisible` is part of the `MonoBehaviour` class hence it is overridden to your script.

@@ -111,5 +111,9 @@ int num = someFloat as int; // NOT POSSIBLE!
 
 `Destroy(<Object>)` erases the specified game object `<Object>` from the game world.
 
+`OnBecameInsivisible` tells us if the game object has left the screen, in other words, not visible on the screen anymore. This can be used to prevent wasting resources on game objects that are not seen in the scene anymore.
+
 #### Tags
 `GameObject.FindWithTag(<string>);` returns one active `GameObject` with the tag `<string>`.
+
+`GameObject.FindGameObjectsWithTag(<string>)` returns a list of active game objects tagged `<string>`. This will be useful if we want to know how many active game objects tagged `<string>` there are using the `Length` property.
