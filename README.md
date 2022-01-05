@@ -31,7 +31,6 @@ That aside, there will surely be notes when they are necessary.
     - [Spawning related](#spawning-related)
     - [Tags](#tags)
 
-
 ## Course 1 Week 1 (C1w1)
 ### C#
 Started with basic input/output and some math functions.  
