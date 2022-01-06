@@ -8,6 +8,10 @@ Vector3 position = Input.mousePosition;
 
 `Input.mousePosition` is a static property that returns the current position of the mouse on the screen.
 
+## Taking The Screen Size
+To get the maximum width and height of the screen, we use `Screen.width` and `Screen.height`.\
+Also, the screen starts at `x: 0` and `y: 0` in the lower left.
+
 ## Clamping A Game Object
 We will be making a `ScreenUtils` and `GameInitializer` script to cache the world coordinates of the screen to improve performance then use these coordinates to clamp, or maintain, a game object within the screen.
 
@@ -117,6 +121,19 @@ public class GameInitializer : MonoBehaviour
 To make sure a game object stays on the screen, we can use the code below to do that:
 
 ```csharp
+// saved for efficiency
+float colliderHalfWidth;
+float colliderHalfHeight;
+
+// Awake is called when instantiated
+void Awake()
+{
+    BoxCollider2D collider = GetComponent<BoxCollider2D>();
+    colliderHalfWidth = collider.size.x / 2;
+    colliderHalfHeight = collider.size.y / 2;
+}
+
+// maintain the game object within the screen
 void ClampInScreen()
 {
     // clamp position as necessary
@@ -171,7 +188,7 @@ if (Input.GetMouseButtonDown(2))
 
 Notice that we did not use `else if` so that we can process if multiple mouse buttons were pressed. Also, as you may have noticed, `0` means left, `1` means right, and `2` means the middle mouse button.
 
-> A point to be aware of is that `Input.GetMouseButtonDown` will continuously return `true` in every frame while the given mouse button is pressed. Use `Input.GetMouseButtonUp` to counter this issue.
+> A point to be aware of is that there is a method called `Input.GetMouseButton` which acts the same as `Input.GetMouseButtonDown` but will continuously return true while the given button is held. So caution not to confuse them.
 
 ## Additional Things Learned
 ### Accessing Methods Attached From A Game Object

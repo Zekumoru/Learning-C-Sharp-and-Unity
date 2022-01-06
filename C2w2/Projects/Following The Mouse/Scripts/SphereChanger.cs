@@ -14,22 +14,18 @@ public class SphereChanger : MonoBehaviour
     // keep track of the current sphere
     GameObject currentSphere;
 
-    // to avoid changing when left click is hold
-    bool hasChangedSphere;
-
     // Start is called before the first frame update
     void Start()
     {
         currentSphere = Instantiate<GameObject>(
             prefabSphere0, Vector3.zero, Quaternion.identity);
-        hasChangedSphere = false;
     }
 
     // Update is called once per frame
     void Update()
     {
         // change sphere on left mouse button
-        if (Input.GetMouseButton(0) && !hasChangedSphere)
+        if (Input.GetMouseButtonDown(0))
         {
             //// save current position then destroy current sphere
             //Vector3 position = currentSphere.transform.position;
@@ -78,15 +74,9 @@ public class SphereChanger : MonoBehaviour
                     Quaternion.identity);
             }
 
-            // set changed sphere flag, set name, and clamp sphere
+            // set name and clamp sphere
             currentSphere.name = "Sphere" + prefabNumber;
             currentSphere.GetComponent<Sphere>().ClampInScreen();
-            hasChangedSphere = true;
-        }
-        else if (Input.GetMouseButtonUp(0))
-        {
-            // after the sphere has changed and left mouse is released
-            hasChangedSphere = false;
         }
     }
 }
