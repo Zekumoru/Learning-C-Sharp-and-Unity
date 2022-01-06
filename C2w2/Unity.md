@@ -190,6 +190,18 @@ Notice that we did not use `else if` so that we can process if multiple mouse bu
 
 > A point to be aware of is that there is a method called `Input.GetMouseButton` which acts the same as `Input.GetMouseButtonDown` but will continuously return true while the given button is held. So caution not to confuse them.
 
+## Input Manager
+To get if a particular axis or axes has/have received inputs from the user, we use `Input.GetAxis`.
+
+```csharp
+if (Input.GetAxis("NameOfTheAxisToCheck") > 0)
+{
+    print("Received positive input!");
+}
+```
+
+Since `Input.GetAxis` returns a float, it depends on what the meaning of a positive or negative input is. (More about this on [Input.GetAxis](https://docs.unity3d.com/ScriptReference/Input.GetAxis.html))
+
 ## Additional Things Learned
 ### Accessing Methods Attached From A Game Object
 Say we instantiated a new game object and we also had to call a method inside of that game object.\
