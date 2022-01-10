@@ -8,9 +8,13 @@ public class Sphere : MonoBehaviour
     float colliderHalfWidth;
     float colliderHalfHeight;
 
+    // movement speed
+    const float MoveUnitsPerSecond = 3;
+
     // Awake is called when instantiated
     private void Awake()
     {
+        // set up colliders' half sizes
         BoxCollider2D collider = GetComponent<BoxCollider2D>();
         colliderHalfWidth = collider.size.x / 2;
         colliderHalfHeight = collider.size.y / 2;
@@ -19,12 +23,41 @@ public class Sphere : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // convert mouse position to world position
-        Vector3 position = Input.mousePosition;
-        position.z = -Camera.main.transform.position.z;
-        position = Camera.main.ScreenToWorldPoint(position);
+        #region Follow Mouse
 
-        // move the sphere where the mouse is
+        //// convert mouse position to world position
+        //Vector3 position = Input.mousePosition;
+        //position.z = -Camera.main.transform.position.z;
+        //position = Camera.main.ScreenToWorldPoint(position);
+
+        #endregion
+
+        #region Move On Keyboard
+
+        // get current position and move according to keyboard
+        Vector3 position = transform.position;
+        float moveUnitsPerSecondBy = MoveUnitsPerSecond;
+        float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");
+
+        // maintain straight and diagonal speed
+        if (horizontalInput != 0 && verticalInput != 0)
+        {
+            moveUnitsPerSecondBy *= Mathf.Cos(Mathf.PI / 4f);
+        }
+
+        // handle movement
+        if (horizontalInput != 0)
+        {
+            position.x += horizontalInput * moveUnitsPerSecondBy * Time.deltaTime;
+        }
+        if (verticalInput != 0)
+        {
+            position.y += verticalInput * moveUnitsPerSecondBy * Time.deltaTime;
+        }
+
+        #endregion
+
         // gameObject.transform.position = position; OR
         transform.position = position; // because the unity devs decided
                                        // this is a common property to access

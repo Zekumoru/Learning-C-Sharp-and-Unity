@@ -116,3 +116,156 @@ int num = someFloat as int; // NOT POSSIBLE!
 `GameObject.FindWithTag(<string>);` returns one active `GameObject` with the tag `<string>`.
 
 `GameObject.FindGameObjectsWithTag(<string>)` returns a list of active game objects tagged `<string>`. This will be useful if we want to know how many active game objects tagged `<string>` there are using the `Length` property.
+
+## Course 2 Week 2 (C2w2)
+### Summary
+Learned about handling inputs such as the keyboard, mouse, and the joystick/gamepad. The **Input Manager** and adding new axes, they provide the name of the controls/inputs and how they are interacted, and how to access them using `Input.GetAxes`.
+
+Also, learned about _"clamping"_ a game object, in other words, maintaining that game object within the screen.
+
+And other miscellaneous such as accessing game object's script methods.
+
+### C#
+It has not been taught in this week.
+
+### Unity
+#### Input Handling
+##### Mouse Inputs
+Mouse inputs can be obtained using `Input.GetMouseButtonDown(<int>)` or `Input.GetMouseButtonUp(<int>)`.
+
+> A point to be aware of is that there is a method called `Input.GetMouseButton` which acts the same as `Input.GetMouseButtonDown` but will continuously return true while the given button is held. So caution not to confuse them.
+
+##### Inputs Using Axes
+Since `Input.GetAxis` returns a float, it depends on what the meaning of a positive or negative input is. (More about this on [Input.GetAxis](https://docs.unity3d.com/ScriptReference/Input.GetAxis.html))
+
+```csharp
+if (Input.GetAxis("NameOfTheAxisToCheck") > 0)
+{
+    // code...
+}
+```
+
+#### Screen And Clamping
+Created a static `ScreenUtils` class which initializes its fields on screen coordinates of the camera to their world locations for efficiency. This static class is then used for implementing clamping. It also uses the methods `Screen.width` and `Screen.height` to get the main camera's coordinates. And it gets initialized by the `GameInitializer` class attached to the main camera inside the `Awake` method of `MonoBehaviour`.
+
+#### Awake and Start
+Explained the difference between `Awake` and `Start` which `Awake` gets called when instantiated and `Start` gets called when the game moved to the next frame.
+
+#### Regions
+Utilized _regions_ to increase code readability.
+```csharp
+#region Name of the Region
+
+// code...
+
+#endregion
+```
+
+> regions can be collapsed using an advanced editor like Visual Studio.
+
+## Course 2 Week 3 (C2w3)
+No dedicated folder has been made for this week because it touches on the basic stuff about loops: _while_ and _for_.
+
+> Which strangely enough, the instructor did not teach about _do-while_ loops.
+
+## Course 2 Week 4 (C2w4)
+### Summary
+Learned about _.dll_ files (Dynamic-link Library) and how to add then use them.
+
+Also learned about arrays and lists, enumerations, and some `MonoBehaviour` methods and tags and some physics.
+
+### C#
+#### Lists
+Of course, arrays are simple so I rather not go in to them. Same goes for lists but I will list down the syntaxes, so to speak, of C#'s `List` class.
+
+> To be able to use `List`, you need to add its directive `using System.Collections.Generic`.
+
+```csharp
+// creating a list
+List<dataType> list = new List<dataType>();
+
+// Adding an element
+list.Add(value);
+
+// Adding an array
+list.AddRange(array);
+
+// Removing an element
+list.Remove(value);
+list.RemoveAt(<index>);
+
+// Clearing the list (removing all elements)
+list.Clear();
+
+// Get size of list
+list.Count();
+```
+
+#### foreach Loop
+It is the same as the _for_ loop but it iteratively accesses an element without the use of an index.
+
+```csharp
+foreach (DataType element in list)
+{
+    // some code...
+}
+```
+
+#### Using Loops While Removing Element
+It is **recommended** and **wise** to use a backward loop rather than a forward one when removing an element in a loop. Why? That's because if we were to use a forward loop, when we removed an item, it will ignore the next element because that next element used to be the next until we removed an element and it got pushed down.
+
+```csharp
+for (int i = list.Count() - 1; i >= 0; i--)
+{
+    if (someCondition)
+    {
+        list.RemoveAt(i);
+    }
+}
+```
+
+Improper way: forward loop
+```csharp
+for (int i = 0; i < list.Count(); i++)
+{
+    if (someCondition)
+    {
+        list.RemoveAt(i);
+    }
+}
+```
+
+#### Enumeration
+List of defined constants to increase code readability.
+
+##### Creating an enumeration class
+```csharp
+public enum EnumerationName
+{
+    Element1,
+    Element2,
+    Element3
+}
+```
+
+##### Converting Enum Element To String
+```csharp
+string str = EnumerationName.Element1.ToString();
+```
+
+##### MonoBehaviour Related Methods
+`OnMouseDown` gets called when user clicked inside of the game object's colliders. `OnTriggerStay2D` gets called when it detects it is inside of another game object's collider, which is better than `OnCollisionEnter2D` if it so happens we triggered multiple game objects at once.
+
+> In order for `OnTriggerStay2D` to work, we must make sure we ticked off **Is Trigger** check-box in the game object's Inspector.
+
+##### Setting Tags Dynamically
+```csharp
+GameObject.tag = nameOfNewTagString;
+```
+
+##### Resetting Force (Physics 2D)
+To reset the applied force from using `RigidBody2D.AddForce`, we simply set its velocity to zero.
+
+```csharp
+someRigidBody2D.velocity = Vector2.zero;
+```

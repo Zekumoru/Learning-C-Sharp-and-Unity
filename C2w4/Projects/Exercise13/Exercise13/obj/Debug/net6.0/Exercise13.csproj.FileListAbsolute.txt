@@ -1,0 +1,15 @@
+C:\Users\Zekumoru\VisualStudioProjects\Exercise13\Exercise13\bin\Debug\net6.0\Exercise13.exe
+C:\Users\Zekumoru\VisualStudioProjects\Exercise13\Exercise13\bin\Debug\net6.0\Exercise13.deps.json
+C:\Users\Zekumoru\VisualStudioProjects\Exercise13\Exercise13\bin\Debug\net6.0\Exercise13.runtimeconfig.json
+C:\Users\Zekumoru\VisualStudioProjects\Exercise13\Exercise13\bin\Debug\net6.0\Exercise13.dll
+C:\Users\Zekumoru\VisualStudioProjects\Exercise13\Exercise13\bin\Debug\net6.0\ref\Exercise13.dll
+C:\Users\Zekumoru\VisualStudioProjects\Exercise13\Exercise13\bin\Debug\net6.0\Exercise13.pdb
+C:\Users\Zekumoru\VisualStudioProjects\Exercise13\Exercise13\obj\Debug\net6.0\Exercise13.csproj.AssemblyReference.cache
+C:\Users\Zekumoru\VisualStudioProjects\Exercise13\Exercise13\obj\Debug\net6.0\Exercise13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zekumoru\VisualStudioProjects\Exercise13\Exercise13\obj\Debug\net6.0\Exercise13.AssemblyInfoInputs.cache
+C:\Users\Zekumoru\VisualStudioProjects\Exercise13\Exercise13\obj\Debug\net6.0\Exercise13.AssemblyInfo.cs
+C:\Users\Zekumoru\VisualStudioProjects\Exercise13\Exercise13\obj\Debug\net6.0\Exercise13.csproj.CoreCompileInputs.cache
+C:\Users\Zekumoru\VisualStudioProjects\Exercise13\Exercise13\obj\Debug\net6.0\Exercise13.dll
+C:\Users\Zekumoru\VisualStudioProjects\Exercise13\Exercise13\obj\Debug\net6.0\ref\Exercise13.dll
+C:\Users\Zekumoru\VisualStudioProjects\Exercise13\Exercise13\obj\Debug\net6.0\Exercise13.pdb
+C:\Users\Zekumoru\VisualStudioProjects\Exercise13\Exercise13\obj\Debug\net6.0\Exercise13.genruntimeconfig.cache

@@ -1,0 +1,17 @@
+C:\Users\Zekumoru\VisualStudioProjects\Exercise14\Exercise14\bin\Debug\net6.0\Exercise14.exe
+C:\Users\Zekumoru\VisualStudioProjects\Exercise14\Exercise14\bin\Debug\net6.0\Exercise14.deps.json
+C:\Users\Zekumoru\VisualStudioProjects\Exercise14\Exercise14\bin\Debug\net6.0\Exercise14.runtimeconfig.json
+C:\Users\Zekumoru\VisualStudioProjects\Exercise14\Exercise14\bin\Debug\net6.0\Exercise14.dll
+C:\Users\Zekumoru\VisualStudioProjects\Exercise14\Exercise14\bin\Debug\net6.0\ref\Exercise14.dll
+C:\Users\Zekumoru\VisualStudioProjects\Exercise14\Exercise14\bin\Debug\net6.0\Exercise14.pdb
+C:\Users\Zekumoru\VisualStudioProjects\Exercise14\Exercise14\obj\Debug\net6.0\Exercise14.csproj.AssemblyReference.cache
+C:\Users\Zekumoru\VisualStudioProjects\Exercise14\Exercise14\obj\Debug\net6.0\Exercise14.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zekumoru\VisualStudioProjects\Exercise14\Exercise14\obj\Debug\net6.0\Exercise14.AssemblyInfoInputs.cache
+C:\Users\Zekumoru\VisualStudioProjects\Exercise14\Exercise14\obj\Debug\net6.0\Exercise14.AssemblyInfo.cs
+C:\Users\Zekumoru\VisualStudioProjects\Exercise14\Exercise14\obj\Debug\net6.0\Exercise14.csproj.CoreCompileInputs.cache
+C:\Users\Zekumoru\VisualStudioProjects\Exercise14\Exercise14\obj\Debug\net6.0\Exercise14.dll
+C:\Users\Zekumoru\VisualStudioProjects\Exercise14\Exercise14\obj\Debug\net6.0\ref\Exercise14.dll
+C:\Users\Zekumoru\VisualStudioProjects\Exercise14\Exercise14\obj\Debug\net6.0\Exercise14.pdb
+C:\Users\Zekumoru\VisualStudioProjects\Exercise14\Exercise14\obj\Debug\net6.0\Exercise14.genruntimeconfig.cache
+C:\Users\Zekumoru\VisualStudioProjects\Exercise14\Exercise14\bin\Debug\net6.0\ConsoleCards.dll
+C:\Users\Zekumoru\VisualStudioProjects\Exercise14\Exercise14\obj\Debug\net6.0\Exercise14.csproj.CopyComplete

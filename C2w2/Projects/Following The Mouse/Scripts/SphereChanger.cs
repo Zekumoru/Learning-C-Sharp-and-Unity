@@ -45,11 +45,20 @@ public class SphereChanger : MonoBehaviour
     void ChangeSphere()
     {
         //// save current position then destroy current sphere
-        //Vector3 position = currentSphere.transform.position;
-        // test: make it so while holding, it still follows the mouse
-        Vector3 position = Input.mousePosition;
-        position.z = -Camera.main.transform.position.z;
-        position = Camera.main.ScreenToWorldPoint(position);
+        #region Spawn On Mouse
+
+        //Vector3 position = Input.mousePosition;
+        //position.z = -Camera.main.transform.position.z;
+        //position = Camera.main.ScreenToWorldPoint(position);
+
+        #endregion
+
+        #region Spawn On Keyboard
+
+        Vector3 position = currentSphere.transform.position;
+        
+        #endregion
+
         string previousSphereName = currentSphere.name;
         Destroy(currentSphere);
 

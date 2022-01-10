@@ -12,3 +12,5 @@ An axis is an input that has a name and bound to a key, button, or joystick.
 
 ### Adding a new axis
 Go to **Input Manager** then under `Axes`, change the size to create new axes then you will notice that the input manager will duplicate the last axis to the specified new size (assuming you incremented the size). This new axis (or, these new axes) can then be modified to create the new axis (axes) we need.
+
+> As for the values of mouse inputs, `mouse 0` refers to the left mouse click, `mouse 1` to the right mouse click, and `mouse 2` for the middle mouse button.
