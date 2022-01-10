@@ -1,4 +1,10 @@
 # Notes
+## Contents
+[Dynamic-link Library (DLL)](#dynamic-link-library-dll)
+  - [Adding A .DLL File](#adding-a-dll-file)
+  - [Using The .DLL File](#using-the-dll-file)
+  - [Incompatible Framework Error](#incompatible-framework-error)
+
 ## Dynamic-link Library (DLL)
 A _.dll_ is useful if we want others to use our code but we do not want to show them the source code.
 

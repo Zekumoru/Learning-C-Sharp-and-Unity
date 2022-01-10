@@ -31,6 +31,32 @@ That aside, there will surely be notes when they are necessary.
     - [Spawning related](#spawning-related)
     - [Tags](#tags)
 
+[Course 2 Week 2 (C2w2)](#course-2-week-2-c2w2)
+  - [Summary](#summary-2)
+  - [C#](#c-4)
+  - [Unity](#unity-4)
+    - [Input Handling](#input-handling)
+      - [Mouse Inputs](#mouse-inputs)
+      - [Inputs Using Axes](#inputs-using-axes)
+    - [Screen And Clamping](#screen-and-clamping)
+    - [Awake and Start](#awake-and-start)
+    - [Regions](#regions)
+
+[Course 2 Week 3 (C2w3)](#course-2-week-3-c2w3)
+
+[Course 2 Week 4 (C2w4)](#course-2-week-4-c2w4)
+  - [Summary](#summary-3)
+  - [C#](#c-5)
+    - [Lists](#lists)
+    - [foreach Loop](#foreach-loop)
+    - [Using Loops While Removing Element](#using-loops-while-removing-element)
+    - [Enumeration](#enumeration)
+      - [Creating an enumeration class](#creating-an-enumeration-class)
+      - [Converting Enum Element To String](#converting-enum-element-to-string)
+      - [MonoBehaviour Related Methods](#monobehaviour-related-methods)
+      - [Setting Tags Dynamically](#setting-tags-dynamically)
+      - [Resetting Force (Physics 2D)](#resetting-force-physics-2d)
+
 ## Course 1 Week 1 (C1w1)
 ### C#
 Started with basic input/output and some math functions.  
@@ -164,7 +190,7 @@ Utilized _regions_ to increase code readability.
 > regions can be collapsed using an advanced editor like Visual Studio.
 
 ## Course 2 Week 3 (C2w3)
-No dedicated folder has been made for this week because it touches on the basic stuff about loops: _while_ and _for_.
+Its folder only has the project files and no tutorial files because it touches on the basic stuff about loops: _while_ and _for_.
 
 > Which strangely enough, the instructor did not teach about _do-while_ loops.
 

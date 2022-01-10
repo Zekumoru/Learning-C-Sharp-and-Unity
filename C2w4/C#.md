@@ -1,4 +1,26 @@
 # C#
+## Contents
+[Arrays](#arrays)
+  - [Declaring And Assigning An Array](#declaring-and-assigning-an-array)
+  - [Accessing An Array](#accessing-an-array)
+
+[Lists](#lists)
+  - [Declaring And Assigning A List](#declaring-and-assigning-a-list)
+  - [Accessing A List](#accessing-a-list)
+  - [Size Of A List](#size-of-a-list)
+  - [Adding An Element](#adding-an-element)
+  - [Adding Elements With Array](#adding-elements-with-array)
+  - [Removing An Element](#removing-an-element)
+  - [Removing All Elements (Clear)](#removing-all-elements-clear)
+
+[Loops Related](#loops-related)
+  - [foreach Loop](#foreach-loop)
+  - [Proper way to remove an element from a list using a loop](#proper-way-to-remove-an-element-from-a-list-using-a-loop)
+
+[Enumeration](#enumeration)
+  - [Making An Enumeration](#making-an-enumeration)
+  - [Converting Enum Element To String](#converting-enum-element-to-string)
+
 ## Arrays
 Collection of the same data type elements.\
 

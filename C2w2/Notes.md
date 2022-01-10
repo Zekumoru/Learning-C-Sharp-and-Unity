@@ -1,4 +1,11 @@
 # Notes
+## Contents
+[Clamping](#clamping)
+
+[Input Manager](#input-manager)
+  - [Adding a new axis](#adding-a-new-axis)
+
+
 ## Clamping
 _"The word **clamp** is used when we talk about keeping a particular value within a range of values or a specified set of values."_ (Dr. T)
 

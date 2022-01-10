@@ -1,4 +1,23 @@
 # Unity
+## Contents
+[Get Mouse Position](#get-mouse-position)
+
+[Taking The Screen Size](#taking-the-screen-size)
+
+[Clamping A Game Object](#clamping-a-game-object)
+  - [ScreenUtils](#screenutils)
+  - [GameInitializer (for initializing ScreenUtils)](#gameinitializer-for-initializing-screenutils)
+  - [Clamping A Game Object](#clamping-a-game-object-1)
+
+[Get Mouse Input](#get-mouse-input)
+
+[Input Manager](#input-manager)
+
+[Additional Things Learned](#additional-things-learned)
+  - [Accessing Methods Attached From A Game Object](#accessing-methods-attached-from-a-game-object)
+  - [Awake vs Start](#awake-vs-start)
+
+
 ## Get Mouse Position
 To get the current position where the mouse is on the screen, we use:
 
