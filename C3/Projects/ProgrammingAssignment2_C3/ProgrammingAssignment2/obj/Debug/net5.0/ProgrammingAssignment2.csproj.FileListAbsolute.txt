@@ -1,0 +1,16 @@
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment2_C3\ProgrammingAssignment2\bin\Debug\net5.0\ProgrammingAssignment2.exe
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment2_C3\ProgrammingAssignment2\bin\Debug\net5.0\ProgrammingAssignment2.deps.json
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment2_C3\ProgrammingAssignment2\bin\Debug\net5.0\ProgrammingAssignment2.runtimeconfig.json
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment2_C3\ProgrammingAssignment2\bin\Debug\net5.0\ProgrammingAssignment2.runtimeconfig.dev.json
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment2_C3\ProgrammingAssignment2\bin\Debug\net5.0\ProgrammingAssignment2.dll
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment2_C3\ProgrammingAssignment2\bin\Debug\net5.0\ref\ProgrammingAssignment2.dll
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment2_C3\ProgrammingAssignment2\bin\Debug\net5.0\ProgrammingAssignment2.pdb
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment2_C3\ProgrammingAssignment2\obj\Debug\net5.0\ProgrammingAssignment2.csproj.AssemblyReference.cache
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment2_C3\ProgrammingAssignment2\obj\Debug\net5.0\ProgrammingAssignment2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment2_C3\ProgrammingAssignment2\obj\Debug\net5.0\ProgrammingAssignment2.AssemblyInfoInputs.cache
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment2_C3\ProgrammingAssignment2\obj\Debug\net5.0\ProgrammingAssignment2.AssemblyInfo.cs
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment2_C3\ProgrammingAssignment2\obj\Debug\net5.0\ProgrammingAssignment2.csproj.CoreCompileInputs.cache
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment2_C3\ProgrammingAssignment2\obj\Debug\net5.0\ProgrammingAssignment2.dll
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment2_C3\ProgrammingAssignment2\obj\Debug\net5.0\ref\ProgrammingAssignment2.dll
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment2_C3\ProgrammingAssignment2\obj\Debug\net5.0\ProgrammingAssignment2.pdb
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment2_C3\ProgrammingAssignment2\obj\Debug\net5.0\ProgrammingAssignment2.genruntimeconfig.cache

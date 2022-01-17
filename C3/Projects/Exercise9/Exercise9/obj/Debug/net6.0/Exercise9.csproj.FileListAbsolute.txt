@@ -1,0 +1,15 @@
+C:\Users\Zekumoru\VisualStudioProjects\Exercise9\Exercise9\bin\Debug\net6.0\Exercise9.exe
+C:\Users\Zekumoru\VisualStudioProjects\Exercise9\Exercise9\bin\Debug\net6.0\Exercise9.deps.json
+C:\Users\Zekumoru\VisualStudioProjects\Exercise9\Exercise9\bin\Debug\net6.0\Exercise9.runtimeconfig.json
+C:\Users\Zekumoru\VisualStudioProjects\Exercise9\Exercise9\bin\Debug\net6.0\Exercise9.dll
+C:\Users\Zekumoru\VisualStudioProjects\Exercise9\Exercise9\bin\Debug\net6.0\ref\Exercise9.dll
+C:\Users\Zekumoru\VisualStudioProjects\Exercise9\Exercise9\bin\Debug\net6.0\Exercise9.pdb
+C:\Users\Zekumoru\VisualStudioProjects\Exercise9\Exercise9\obj\Debug\net6.0\Exercise9.csproj.AssemblyReference.cache
+C:\Users\Zekumoru\VisualStudioProjects\Exercise9\Exercise9\obj\Debug\net6.0\Exercise9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zekumoru\VisualStudioProjects\Exercise9\Exercise9\obj\Debug\net6.0\Exercise9.AssemblyInfoInputs.cache
+C:\Users\Zekumoru\VisualStudioProjects\Exercise9\Exercise9\obj\Debug\net6.0\Exercise9.AssemblyInfo.cs
+C:\Users\Zekumoru\VisualStudioProjects\Exercise9\Exercise9\obj\Debug\net6.0\Exercise9.csproj.CoreCompileInputs.cache
+C:\Users\Zekumoru\VisualStudioProjects\Exercise9\Exercise9\obj\Debug\net6.0\Exercise9.dll
+C:\Users\Zekumoru\VisualStudioProjects\Exercise9\Exercise9\obj\Debug\net6.0\ref\Exercise9.dll
+C:\Users\Zekumoru\VisualStudioProjects\Exercise9\Exercise9\obj\Debug\net6.0\Exercise9.pdb
+C:\Users\Zekumoru\VisualStudioProjects\Exercise9\Exercise9\obj\Debug\net6.0\Exercise9.genruntimeconfig.cache

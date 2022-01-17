@@ -295,3 +295,77 @@ To reset the applied force from using `RigidBody2D.AddForce`, we simply set its 
 ```csharp
 someRigidBody2D.velocity = Vector2.zero;
 ```
+
+## Course 3 (All weeks)
+### Summary
+Since this week consists of implementing methods, classes, properties, working with char and strings, and whatnot. I figure it's really too basic to write them down. However I will still give a quick code snippets for syntax.
+
+#### First Week And Third Week
+The first week talked about abstraction: what are the things that matter in our implementation and that there is no core truth, meaning, there is no correct way to make an abstraction as of each abstraction serves its own purpose. This week, it also talked about designing a class, implementing one, constructors, fields, properties, and methods.
+
+Third week basically is the full blown implementation of a class like the example below.
+
+```csharp
+class Foo
+{
+    // fields
+    int bar;
+    string str;
+
+    // constructors
+    public Foo()
+    {
+        bar = 0;
+        str = String.Empty;
+    }
+
+    // properties
+    public int Bar
+    {
+        set { bar = value; }
+        get { return bar; }
+    }
+
+    public string Str
+    {
+        set { str = value; }
+        get { return str; }
+    }
+
+    // methods
+    public void AddValue(int value)
+    {
+        bar += value;
+    }
+}
+```
+
+#### Second Week
+Primarily talked about methods and different types of them, namely, one with parameters, or one with a return, etc.
+
+```csharp
+// The 4 types of methods
+void Foo() {}       // no parameter; no return value
+void Foo(int n) {}  // no return value
+int Bar() {}        // no parameter
+int Bar(int n) {}   // has both parameter and return value
+```
+
+In the example above, the parameter can be more than one. (Of course)
+
+Also, the term _parameter_ is used when referring to the variables in the method but when we are calling the method, we call the values we pass _arguments_.
+
+```csharp
+int bar = someValue;
+Foo(bar); // <-- 'bar' here is an 'argument'
+
+void Foo(int n) // <-- 'n' here is a 'parameter'
+{
+    // some code ...
+}
+```
+
+#### Fourth Week
+Talked about `string` and `char`, and how to manipulate them using the `String` and `Char` classes' methods like `ToUpper`, `IndexOf`, etc.
+
+Interestingly, this week covered about working with text on Unity and playing audio clips. More about this on the `Notes.md` file in the course 3 folder.
