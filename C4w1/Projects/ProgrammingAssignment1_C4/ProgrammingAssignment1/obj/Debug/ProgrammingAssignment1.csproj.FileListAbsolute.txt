@@ -1,0 +1,22 @@
+D:\Dropbox\Coursera C# Unity\3 Int OO Prog Unity\Module 1 Exceptions and File IO\Programming Assignment 1\solution\ProgrammingAssignment1\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.csprojAssemblyReference.cache
+D:\Dropbox\Coursera C# Unity\3 Int OO Prog Unity\Module 1 Exceptions and File IO\Programming Assignment 1\solution\ProgrammingAssignment1\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.csproj.CoreCompileInputs.cache
+D:\Dropbox\Coursera C# Unity\3 Int OO Prog Unity\Module 1 Exceptions and File IO\Programming Assignment 1\solution\ProgrammingAssignment1\ProgrammingAssignment1\bin\Debug\ProgrammingAssignment1.exe.config
+D:\Dropbox\Coursera C# Unity\3 Int OO Prog Unity\Module 1 Exceptions and File IO\Programming Assignment 1\solution\ProgrammingAssignment1\ProgrammingAssignment1\bin\Debug\ProgrammingAssignment1.exe
+D:\Dropbox\Coursera C# Unity\3 Int OO Prog Unity\Module 1 Exceptions and File IO\Programming Assignment 1\solution\ProgrammingAssignment1\ProgrammingAssignment1\bin\Debug\ProgrammingAssignment1.pdb
+D:\Dropbox\Coursera C# Unity\3 Int OO Prog Unity\Module 1 Exceptions and File IO\Programming Assignment 1\solution\ProgrammingAssignment1\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.exe
+D:\Dropbox\Coursera C# Unity\3 Int OO Prog Unity\Module 1 Exceptions and File IO\Programming Assignment 1\solution\ProgrammingAssignment1\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.pdb
+D:\Dropbox\Coursera C# Unity\3 Int OO Prog Unity\Module 1 Exceptions and File IO\Programming Assignment 1\materials\ProgrammingAssignment1\ProgrammingAssignment1\bin\Debug\ProgrammingAssignment1.exe.config
+D:\Dropbox\Coursera C# Unity\3 Int OO Prog Unity\Module 1 Exceptions and File IO\Programming Assignment 1\materials\ProgrammingAssignment1\ProgrammingAssignment1\bin\Debug\ProgrammingAssignment1.exe
+D:\Dropbox\Coursera C# Unity\3 Int OO Prog Unity\Module 1 Exceptions and File IO\Programming Assignment 1\materials\ProgrammingAssignment1\ProgrammingAssignment1\bin\Debug\ProgrammingAssignment1.pdb
+D:\Dropbox\Coursera C# Unity\3 Int OO Prog Unity\Module 1 Exceptions and File IO\Programming Assignment 1\materials\ProgrammingAssignment1\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.csprojAssemblyReference.cache
+D:\Dropbox\Coursera C# Unity\3 Int OO Prog Unity\Module 1 Exceptions and File IO\Programming Assignment 1\materials\ProgrammingAssignment1\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.csproj.CoreCompileInputs.cache
+D:\Dropbox\Coursera C# Unity\3 Int OO Prog Unity\Module 1 Exceptions and File IO\Programming Assignment 1\materials\ProgrammingAssignment1\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.exe
+D:\Dropbox\Coursera C# Unity\3 Int OO Prog Unity\Module 1 Exceptions and File IO\Programming Assignment 1\materials\ProgrammingAssignment1\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.pdb
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment1_C4\ProgrammingAssignment1\bin\Debug\ProgrammingAssignment1.exe.config
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment1_C4\ProgrammingAssignment1\bin\Debug\ProgrammingAssignment1.exe
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment1_C4\ProgrammingAssignment1\bin\Debug\ProgrammingAssignment1.pdb
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment1_C4\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.csproj.AssemblyReference.cache
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment1_C4\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment1_C4\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.csproj.CoreCompileInputs.cache
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment1_C4\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.exe
+C:\Users\Zekumoru\VisualStudioProjects\ProgrammingAssignment1_C4\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.pdb

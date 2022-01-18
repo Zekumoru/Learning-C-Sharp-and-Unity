@@ -2,6 +2,19 @@
 Since this week is pretty basic in the most part, I will be stuffing everything here rather than creating additional `Unity.md` and `C#.md` files.
 
 ## Contents
+[RigidBody2D Kinematic](#rigidbody2d-kinematic)
+
+[Heads Up Display (HUD)](#heads-up-display-hud)
+  - [Adding A Canvas](#adding-a-canvas)
+  - [Adding A Text](#adding-a-text)
+  - [Adding A Script Component For The HUD](#adding-a-script-component-for-the-hud)
+
+[Audio Basics](#audio-basics)
+  - [Adding An Audio Source](#adding-an-audio-source)
+  - [Playing The Audio With Script](#playing-the-audio-with-script)
+
+[Audio Manager](#audio-manager)
+  - [Creating An Audio Manager](#creating-an-audio-manager)
 
 ## RigidBody2D Kinematic
 Rigidbody2d Kinematic -> _"This means we’ll be changing the position of the rigidbody ourselves rather than adding forces to move it."_

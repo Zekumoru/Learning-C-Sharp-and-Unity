@@ -57,6 +57,24 @@ That aside, there will surely be notes when they are necessary.
       - [Setting Tags Dynamically](#setting-tags-dynamically)
       - [Resetting Force (Physics 2D)](#resetting-force-physics-2d)
 
+[Course 3 (All weeks)](#course-3-all-weeks)
+  - [Summary](#summary-4)
+    - [First Week And Third Week](#first-week-and-third-week)
+    - [Second Week](#second-week)
+    - [Fourth Week](#fourth-week)
+
+[Course 4 Week 1 (C4w1)](#course-4-week-1-c4w1)
+  - [Summary](#summary-5)
+  - [C#](#c-6)
+    - [Exception Syntax](#exception-syntax)
+    - [File With System.IO](#file-with-systemio)
+      - [Writing](#writing)
+      - [Reading](#reading)
+  - [Unity](#unity-5)
+    - [PlayerPrefs](#playerprefs)
+      - [Getting Value](#getting-value)
+      - [Setting Value And Saving](#setting-value-and-saving)
+
 ## Course 1 Week 1 (C1w1)
 ### C#
 Started with basic input/output and some math functions.  
@@ -369,3 +387,64 @@ void Foo(int n) // <-- 'n' here is a 'parameter'
 Talked about `string` and `char`, and how to manipulate them using the `String` and `Char` classes' methods like `ToUpper`, `IndexOf`, etc.
 
 Interestingly, this week covered about working with text on Unity and playing audio clips. More about this on the `Notes.md` file in the course 3 folder.
+
+## Course 4 Week 1 (C4w1)
+### Summary
+Learned about handling exceptions and basic file management with `System.IO` and Unity's `PlayerPrefs`.
+
+Also talked about game configuration data management with `.csv` files and `.xml` files.
+
+### C#
+#### Exception Syntax
+```csharp
+try
+{
+    // code...
+}
+catch (Exception e)
+{
+    // code...
+}
+finally
+{
+    // always gets executed...
+}
+```
+
+#### File With System.IO
+##### Writing
+```csharp
+// creating a new file
+StreamWriter output = File.CreateText(fileName);
+
+// writing to the new file
+output.WriteLine(someTextToWrite);
+```
+
+##### Reading
+```csharp
+// opening a file to read
+StreamReader input = File.OpenText(fileName);
+
+// reading file line by line
+string line;
+while ((line = input.ReadLine()) != null)
+{
+    // do something with the line
+}
+```
+
+### Unity
+#### PlayerPrefs
+##### Getting Value
+```csharp
+string str = PlayerPrefs.GetString(<key>);
+```
+
+##### Setting Value And Saving
+```csharp
+PlayerPrefs.SetString(<key>, <value>);
+PlayerPrefs.Save();
+```
+
+> More about this on the Notes.md file in this week's folder
