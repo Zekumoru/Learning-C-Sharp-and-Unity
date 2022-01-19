@@ -75,6 +75,10 @@ That aside, there will surely be notes when they are necessary.
       - [Getting Value](#getting-value)
       - [Setting Value And Saving](#setting-value-and-saving)
 
+[Course 4 Week 2 (C4w2)](#course-4-week-2-c4w2)
+  - [Summary](#summary-6)
+  - [C#](#c-7)
+
 ## Course 1 Week 1 (C1w1)
 ### C#
 Started with basic input/output and some math functions.  
@@ -448,3 +452,40 @@ PlayerPrefs.Save();
 ```
 
 > More about this on the Notes.md file in this week's folder
+
+## Course 4 Week 2 (C4w2)
+### Summary
+Learned about inheritance and polymorphism.
+
+### C#
+```csharp
+/// The parent class
+class A
+{
+    protected int bar;
+
+    public A(int bar)
+    {
+        this.bar = bar;
+    }
+
+    public virtual void Foo()
+    {
+        // some code...
+    }
+}
+
+/// The child class
+class B : A
+{
+    public B(int bar) : base(bar) {}
+
+    public override void Foo() // <- This is polymorphism:
+                               // "same function, different behavior"
+    {
+        // some code...
+    }
+}
+```
+
+Read more on the `Notes.md` file about inheritance and caveats of `virtual` and `override`.

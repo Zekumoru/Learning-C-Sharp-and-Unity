@@ -1,0 +1,8 @@
+C:\Users\Zekumoru\Downloads\ProgrammingAssignment2\ProgrammingAssignment2\bin\Debug\ProgrammingAssignment2.exe.config
+C:\Users\Zekumoru\Downloads\ProgrammingAssignment2\ProgrammingAssignment2\bin\Debug\ProgrammingAssignment2.exe
+C:\Users\Zekumoru\Downloads\ProgrammingAssignment2\ProgrammingAssignment2\bin\Debug\ProgrammingAssignment2.pdb
+C:\Users\Zekumoru\Downloads\ProgrammingAssignment2\ProgrammingAssignment2\obj\Debug\ProgrammingAssignment2.csproj.AssemblyReference.cache
+C:\Users\Zekumoru\Downloads\ProgrammingAssignment2\ProgrammingAssignment2\obj\Debug\ProgrammingAssignment2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Zekumoru\Downloads\ProgrammingAssignment2\ProgrammingAssignment2\obj\Debug\ProgrammingAssignment2.csproj.CoreCompileInputs.cache
+C:\Users\Zekumoru\Downloads\ProgrammingAssignment2\ProgrammingAssignment2\obj\Debug\ProgrammingAssignment2.exe
+C:\Users\Zekumoru\Downloads\ProgrammingAssignment2\ProgrammingAssignment2\obj\Debug\ProgrammingAssignment2.pdb

@@ -1,4 +1,14 @@
 # Notes
+## Content
+[Inheritance](#inheritance)
+  - [Inheritance Example](#inheritance-example)
+  - [protected Keyword](#protected-keyword)
+  - [A Note About Inheritance](#a-note-about-inheritance)
+  - [What Happens If We Don't Use `virtual` And `override`](#what-happens-if-we-dont-use-virtual-and-override)
+    - [Example](#example)
+
+[Polymorphism](#polymorphism)
+
 ## Inheritance
 Inheritance is a way to structure our code so that multiple classes share common fields, properties, and methods. But inheritance is powerful because it also lets us to extend a child class with its own specialized fields, properties, and methods.
 
@@ -115,3 +125,8 @@ class Program
 Also, even if we put `virtual` only without writing `override` in the child class, we will still get the same output.
 
 If we, however, only write the `override` keyword, we will get an error saying we cannot override a non-virtual method.
+
+## Polymorphism
+The same method can behave in different ways, hence the term _"polymorphism"_ meaning _"many forms"_.
+
+An example is the `Foo()` method above.
