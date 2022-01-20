@@ -79,6 +79,10 @@ That aside, there will surely be notes when they are necessary.
   - [Summary](#summary-6)
   - [C#](#c-7)
 
+[Course 4 Week 3 (C4w3)](#course-4-week-3-c4w3)
+  - [Summary](#summary-7)
+  - [C# And Unity](#c-and-unity)
+
 ## Course 1 Week 1 (C1w1)
 ### C#
 Started with basic input/output and some math functions.  
@@ -489,3 +493,16 @@ class B : A
 ```
 
 Read more on the `Notes.md` file about inheritance and caveats of `virtual` and `override`.
+
+## Course 4 Week 3 (C4w3)
+### Summary
+Learned about delegates and how they are used with handling events with `UnityEvent` and `UnityAction` classes which reside in the `UnityEngine.Events` namespace. Also learned how to make an event manager.
+
+Learned about making a simple menu and a more complicated menu system with a menu manager.
+
+Also learned about loading scenes with `SceneManager.LoadScene` method provided by the `UnityEngine.SceneManagement` namespace. And quitting games/applications with `Application.Quit` static method.
+
+### C# And Unity
+There were no C# specific materials learned in this week's lesson other than the fact that the instructor talked about a little bit about generics just for the sake of using the `UnityEvent` class.
+
+The important Unity syntax code related are already in the summary of this week. It's advisable to check the `Notes.md` of this week to learn the implementation of event handling and menu systems.
