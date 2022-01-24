@@ -15,6 +15,7 @@
   - [Code Example](#code-example)
     - [Invoker](#invoker)
     - [Listener](#listener)
+  - [EventManager Analysis (How It Works)](#eventmanager-analysis-how-it-works)
 
 [Menu](#menu)
   - [Creating A Simple Menu Button](#creating-a-simple-menu-button)
@@ -189,6 +190,13 @@ public class EventListener : MonoBehaviour
 ```
 
 Notice how we do not need to get the component anymore like before. This is one of the benefits having the event manager as the intermediary class between events and listeners.
+
+### EventManager Analysis (How It Works)
+What's basically happening with the event system is that, it still applies the events and delegates concepts but it's not apparent at first. However, the EventManager that the instructor made is for managing a list of invokers with their respective listeners.
+
+To make the EventManager more general so that it can hold not only a list of one specific class (invoker) with its specific listeners, the instructor created a Dictionary to hold still invokers but now they are named, in other words, keyed, using an enumeration of name of events. Hence when multiple classes are invokers and we want a single EventManager to handle them, the Dictionary will do just that.
+
+One important thing to note here is that the EventManager does NOT actually have the implementation you would expect with events and delegates. The actual adding of delegates are still within the classes themselves but how they are added are managed by the EventManager. This way, the objects of a class does not need to know other objects of another class.
 
 ## Menu
 ### Creating A Simple Menu Button
