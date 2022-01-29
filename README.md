@@ -83,6 +83,10 @@ That aside, there will surely be notes when they are necessary.
   - [Summary](#summary-7)
   - [C# And Unity](#c-and-unity)
 
+[Course 4 Week 4 (C4w4)](#course-4-week-4-c4w4)
+
+[Course 5 Week 1 (C5w1)](#course-5-week-1-c5w1)
+
 ## Course 1 Week 1 (C1w1)
 ### C#
 Started with basic input/output and some math functions.  
@@ -506,3 +510,11 @@ Also learned about loading scenes with `SceneManager.LoadScene` method provided 
 There were no C# specific materials learned in this week's lesson other than the fact that the instructor talked about a little bit about generics just for the sake of using the `UnityEvent` class.
 
 The important Unity syntax code related are already in the summary of this week. It's advisable to check the `Notes.md` of this week to learn the implementation of event handling and menu systems.
+
+## Course 4 Week 4 (C4w4)
+No notes were provided in this week because the instructor showed the application of all the lessons learned in a game.
+
+## Course 5 Week 1 (C5w1)
+In this week, it was taught how to implement a simple List class (like the one in the generic collections namespace). Also learned about algorithm analysis, especially, the _Big O_ notation.
+
+Since I already know most of the stuff, it was pretty much a breeze for me and there was almost to none for me to take note of hence the lack of notes in this week's folder.
