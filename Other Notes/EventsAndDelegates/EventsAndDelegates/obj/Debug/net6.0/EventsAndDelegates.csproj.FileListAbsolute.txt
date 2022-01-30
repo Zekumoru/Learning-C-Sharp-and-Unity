@@ -1,0 +1,15 @@
+C:\Users\Zekumoru\VisualStudioProjects\EventsAndDelegates\EventsAndDelegates\bin\Debug\net6.0\EventsAndDelegates.exe
+C:\Users\Zekumoru\VisualStudioProjects\EventsAndDelegates\EventsAndDelegates\bin\Debug\net6.0\EventsAndDelegates.deps.json
+C:\Users\Zekumoru\VisualStudioProjects\EventsAndDelegates\EventsAndDelegates\bin\Debug\net6.0\EventsAndDelegates.runtimeconfig.json
+C:\Users\Zekumoru\VisualStudioProjects\EventsAndDelegates\EventsAndDelegates\bin\Debug\net6.0\EventsAndDelegates.dll
+C:\Users\Zekumoru\VisualStudioProjects\EventsAndDelegates\EventsAndDelegates\bin\Debug\net6.0\ref\EventsAndDelegates.dll
+C:\Users\Zekumoru\VisualStudioProjects\EventsAndDelegates\EventsAndDelegates\bin\Debug\net6.0\EventsAndDelegates.pdb
+C:\Users\Zekumoru\VisualStudioProjects\EventsAndDelegates\EventsAndDelegates\obj\Debug\net6.0\EventsAndDelegates.csproj.AssemblyReference.cache
+C:\Users\Zekumoru\VisualStudioProjects\EventsAndDelegates\EventsAndDelegates\obj\Debug\net6.0\EventsAndDelegates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zekumoru\VisualStudioProjects\EventsAndDelegates\EventsAndDelegates\obj\Debug\net6.0\EventsAndDelegates.AssemblyInfoInputs.cache
+C:\Users\Zekumoru\VisualStudioProjects\EventsAndDelegates\EventsAndDelegates\obj\Debug\net6.0\EventsAndDelegates.AssemblyInfo.cs
+C:\Users\Zekumoru\VisualStudioProjects\EventsAndDelegates\EventsAndDelegates\obj\Debug\net6.0\EventsAndDelegates.csproj.CoreCompileInputs.cache
+C:\Users\Zekumoru\VisualStudioProjects\EventsAndDelegates\EventsAndDelegates\obj\Debug\net6.0\EventsAndDelegates.dll
+C:\Users\Zekumoru\VisualStudioProjects\EventsAndDelegates\EventsAndDelegates\obj\Debug\net6.0\ref\EventsAndDelegates.dll
+C:\Users\Zekumoru\VisualStudioProjects\EventsAndDelegates\EventsAndDelegates\obj\Debug\net6.0\EventsAndDelegates.pdb
+C:\Users\Zekumoru\VisualStudioProjects\EventsAndDelegates\EventsAndDelegates\obj\Debug\net6.0\EventsAndDelegates.genruntimeconfig.cache

@@ -1,0 +1,8 @@
+C:\Users\Zekumoru\Downloads\LinkedLists\LinkedLists\bin\Debug\LinkedLists.exe.config
+C:\Users\Zekumoru\Downloads\LinkedLists\LinkedLists\bin\Debug\LinkedLists.exe
+C:\Users\Zekumoru\Downloads\LinkedLists\LinkedLists\bin\Debug\LinkedLists.pdb
+C:\Users\Zekumoru\Downloads\LinkedLists\LinkedLists\obj\Debug\LinkedLists.csproj.AssemblyReference.cache
+C:\Users\Zekumoru\Downloads\LinkedLists\LinkedLists\obj\Debug\LinkedLists.csproj.SuggestedBindingRedirects.cache
+C:\Users\Zekumoru\Downloads\LinkedLists\LinkedLists\obj\Debug\LinkedLists.csproj.CoreCompileInputs.cache
+C:\Users\Zekumoru\Downloads\LinkedLists\LinkedLists\obj\Debug\LinkedLists.exe
+C:\Users\Zekumoru\Downloads\LinkedLists\LinkedLists\obj\Debug\LinkedLists.pdb

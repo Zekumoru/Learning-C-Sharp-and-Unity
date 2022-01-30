@@ -1,0 +1,15 @@
+C:\Users\Zekumoru\VisualStudioProjects\LinkedList\LinkedList\bin\Debug\net6.0\LinkedList.exe
+C:\Users\Zekumoru\VisualStudioProjects\LinkedList\LinkedList\bin\Debug\net6.0\LinkedList.deps.json
+C:\Users\Zekumoru\VisualStudioProjects\LinkedList\LinkedList\bin\Debug\net6.0\LinkedList.runtimeconfig.json
+C:\Users\Zekumoru\VisualStudioProjects\LinkedList\LinkedList\bin\Debug\net6.0\LinkedList.dll
+C:\Users\Zekumoru\VisualStudioProjects\LinkedList\LinkedList\bin\Debug\net6.0\ref\LinkedList.dll
+C:\Users\Zekumoru\VisualStudioProjects\LinkedList\LinkedList\bin\Debug\net6.0\LinkedList.pdb
+C:\Users\Zekumoru\VisualStudioProjects\LinkedList\LinkedList\obj\Debug\net6.0\LinkedList.csproj.AssemblyReference.cache
+C:\Users\Zekumoru\VisualStudioProjects\LinkedList\LinkedList\obj\Debug\net6.0\LinkedList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zekumoru\VisualStudioProjects\LinkedList\LinkedList\obj\Debug\net6.0\LinkedList.AssemblyInfoInputs.cache
+C:\Users\Zekumoru\VisualStudioProjects\LinkedList\LinkedList\obj\Debug\net6.0\LinkedList.AssemblyInfo.cs
+C:\Users\Zekumoru\VisualStudioProjects\LinkedList\LinkedList\obj\Debug\net6.0\LinkedList.csproj.CoreCompileInputs.cache
+C:\Users\Zekumoru\VisualStudioProjects\LinkedList\LinkedList\obj\Debug\net6.0\LinkedList.dll
+C:\Users\Zekumoru\VisualStudioProjects\LinkedList\LinkedList\obj\Debug\net6.0\ref\LinkedList.dll
+C:\Users\Zekumoru\VisualStudioProjects\LinkedList\LinkedList\obj\Debug\net6.0\LinkedList.pdb
+C:\Users\Zekumoru\VisualStudioProjects\LinkedList\LinkedList\obj\Debug\net6.0\LinkedList.genruntimeconfig.cache
