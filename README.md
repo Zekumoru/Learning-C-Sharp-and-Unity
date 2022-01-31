@@ -87,6 +87,8 @@ That aside, there will surely be notes when they are necessary.
 
 [Course 5 Week 1 (C5w1)](#course-5-week-1-c5w1)
 
+[Course 5 Week 2 (C5w2)](#course-5-week-2-c5w2)
+
 ## Course 1 Week 1 (C1w1)
 ### C#
 Started with basic input/output and some math functions.  
@@ -518,3 +520,10 @@ No notes were provided in this week because the instructor showed the applicatio
 In this week, it was taught how to implement a simple List class (like the one in the generic collections namespace). Also learned about algorithm analysis, especially, the _Big O_ notation.
 
 Since I already know most of the stuff, it was pretty much a breeze for me and there was almost to none for me to take note of hence the lack of notes in this week's folder.
+
+## Course 5 Week 2 (C5w2)
+Learned about **linked list** and **graphs**, and also, how to implement them from scratch. Also learned pathfinding algorithms: **breadth-first search** and **depth-first search**.
+
+It is **highly advisable** to check the `Notes.md` in this week's folder to learn more about the implementation of said learned things since I took my sweet time writing those notes. (2 hours to be exact)
+
+Also check the projects folders and study the code for better comprehension.

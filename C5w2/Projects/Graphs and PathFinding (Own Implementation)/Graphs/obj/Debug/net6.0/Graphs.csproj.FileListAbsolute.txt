@@ -1,0 +1,30 @@
+C:\Users\Zekumoru\VisualStudioProjects\Graphs\Graphs\bin\Debug\net6.0\Graphs.exe
+C:\Users\Zekumoru\VisualStudioProjects\Graphs\Graphs\bin\Debug\net6.0\Graphs.deps.json
+C:\Users\Zekumoru\VisualStudioProjects\Graphs\Graphs\bin\Debug\net6.0\Graphs.runtimeconfig.json
+C:\Users\Zekumoru\VisualStudioProjects\Graphs\Graphs\bin\Debug\net6.0\Graphs.dll
+C:\Users\Zekumoru\VisualStudioProjects\Graphs\Graphs\bin\Debug\net6.0\ref\Graphs.dll
+C:\Users\Zekumoru\VisualStudioProjects\Graphs\Graphs\bin\Debug\net6.0\Graphs.pdb
+C:\Users\Zekumoru\VisualStudioProjects\Graphs\Graphs\obj\Debug\net6.0\Graphs.csproj.AssemblyReference.cache
+C:\Users\Zekumoru\VisualStudioProjects\Graphs\Graphs\obj\Debug\net6.0\Graphs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zekumoru\VisualStudioProjects\Graphs\Graphs\obj\Debug\net6.0\Graphs.AssemblyInfoInputs.cache
+C:\Users\Zekumoru\VisualStudioProjects\Graphs\Graphs\obj\Debug\net6.0\Graphs.AssemblyInfo.cs
+C:\Users\Zekumoru\VisualStudioProjects\Graphs\Graphs\obj\Debug\net6.0\Graphs.csproj.CoreCompileInputs.cache
+C:\Users\Zekumoru\VisualStudioProjects\Graphs\Graphs\obj\Debug\net6.0\Graphs.dll
+C:\Users\Zekumoru\VisualStudioProjects\Graphs\Graphs\obj\Debug\net6.0\ref\Graphs.dll
+C:\Users\Zekumoru\VisualStudioProjects\Graphs\Graphs\obj\Debug\net6.0\Graphs.pdb
+C:\Users\Zekumoru\VisualStudioProjects\Graphs\Graphs\obj\Debug\net6.0\Graphs.genruntimeconfig.cache
+C:\Users\Zekumoru\OneDrive\Documents\Computer Science\C# and Unity Course\Notes\C5w2\Projects\Graphs (Own Implementation)\Graphs\bin\Debug\net6.0\Graphs.exe
+C:\Users\Zekumoru\OneDrive\Documents\Computer Science\C# and Unity Course\Notes\C5w2\Projects\Graphs (Own Implementation)\Graphs\bin\Debug\net6.0\Graphs.deps.json
+C:\Users\Zekumoru\OneDrive\Documents\Computer Science\C# and Unity Course\Notes\C5w2\Projects\Graphs (Own Implementation)\Graphs\bin\Debug\net6.0\Graphs.runtimeconfig.json
+C:\Users\Zekumoru\OneDrive\Documents\Computer Science\C# and Unity Course\Notes\C5w2\Projects\Graphs (Own Implementation)\Graphs\bin\Debug\net6.0\Graphs.dll
+C:\Users\Zekumoru\OneDrive\Documents\Computer Science\C# and Unity Course\Notes\C5w2\Projects\Graphs (Own Implementation)\Graphs\bin\Debug\net6.0\ref\Graphs.dll
+C:\Users\Zekumoru\OneDrive\Documents\Computer Science\C# and Unity Course\Notes\C5w2\Projects\Graphs (Own Implementation)\Graphs\bin\Debug\net6.0\Graphs.pdb
+C:\Users\Zekumoru\OneDrive\Documents\Computer Science\C# and Unity Course\Notes\C5w2\Projects\Graphs (Own Implementation)\Graphs\obj\Debug\net6.0\Graphs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zekumoru\OneDrive\Documents\Computer Science\C# and Unity Course\Notes\C5w2\Projects\Graphs (Own Implementation)\Graphs\obj\Debug\net6.0\Graphs.AssemblyInfoInputs.cache
+C:\Users\Zekumoru\OneDrive\Documents\Computer Science\C# and Unity Course\Notes\C5w2\Projects\Graphs (Own Implementation)\Graphs\obj\Debug\net6.0\Graphs.AssemblyInfo.cs
+C:\Users\Zekumoru\OneDrive\Documents\Computer Science\C# and Unity Course\Notes\C5w2\Projects\Graphs (Own Implementation)\Graphs\obj\Debug\net6.0\Graphs.csproj.CoreCompileInputs.cache
+C:\Users\Zekumoru\OneDrive\Documents\Computer Science\C# and Unity Course\Notes\C5w2\Projects\Graphs (Own Implementation)\Graphs\obj\Debug\net6.0\Graphs.dll
+C:\Users\Zekumoru\OneDrive\Documents\Computer Science\C# and Unity Course\Notes\C5w2\Projects\Graphs (Own Implementation)\Graphs\obj\Debug\net6.0\ref\Graphs.dll
+C:\Users\Zekumoru\OneDrive\Documents\Computer Science\C# and Unity Course\Notes\C5w2\Projects\Graphs (Own Implementation)\Graphs\obj\Debug\net6.0\Graphs.pdb
+C:\Users\Zekumoru\OneDrive\Documents\Computer Science\C# and Unity Course\Notes\C5w2\Projects\Graphs (Own Implementation)\Graphs\obj\Debug\net6.0\Graphs.genruntimeconfig.cache
+C:\Users\Zekumoru\OneDrive\Documents\Computer Science\C# and Unity Course\Notes\C5w2\Projects\Graphs (Own Implementation)\Graphs\obj\Debug\net6.0\Graphs.csproj.AssemblyReference.cache

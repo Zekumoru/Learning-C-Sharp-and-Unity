@@ -1,0 +1,13 @@
+C:\Users\Albert\Documents\Visual Studio 2017\Projects\Graphs\Graphs\bin\Debug\Graphs.exe.config
+C:\Users\Albert\Documents\Visual Studio 2017\Projects\Graphs\Graphs\bin\Debug\Graphs.exe
+C:\Users\Albert\Documents\Visual Studio 2017\Projects\Graphs\Graphs\bin\Debug\Graphs.pdb
+C:\Users\Albert\Documents\Visual Studio 2017\Projects\Graphs\Graphs\obj\Debug\Graphs.exe
+C:\Users\Albert\Documents\Visual Studio 2017\Projects\Graphs\Graphs\obj\Debug\Graphs.pdb
+C:\Users\Zekumoru\Downloads\C# and Unity\Exercise6_Graphs\Graphs\bin\Debug\Graphs.exe.config
+C:\Users\Zekumoru\Downloads\C# and Unity\Exercise6_Graphs\Graphs\bin\Debug\Graphs.exe
+C:\Users\Zekumoru\Downloads\C# and Unity\Exercise6_Graphs\Graphs\bin\Debug\Graphs.pdb
+C:\Users\Zekumoru\Downloads\C# and Unity\Exercise6_Graphs\Graphs\obj\Debug\Graphs.csproj.AssemblyReference.cache
+C:\Users\Zekumoru\Downloads\C# and Unity\Exercise6_Graphs\Graphs\obj\Debug\Graphs.csproj.SuggestedBindingRedirects.cache
+C:\Users\Zekumoru\Downloads\C# and Unity\Exercise6_Graphs\Graphs\obj\Debug\Graphs.csproj.CoreCompileInputs.cache
+C:\Users\Zekumoru\Downloads\C# and Unity\Exercise6_Graphs\Graphs\obj\Debug\Graphs.exe
+C:\Users\Zekumoru\Downloads\C# and Unity\Exercise6_Graphs\Graphs\obj\Debug\Graphs.pdb
