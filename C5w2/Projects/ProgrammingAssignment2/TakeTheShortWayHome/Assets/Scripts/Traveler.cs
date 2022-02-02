@@ -172,7 +172,7 @@ public class Traveler : MonoBehaviour
 		// graph node. This dictionary gives us a very fast way to determine
 		// if the search node corresponding to a graph node is still in the
 		// search list
-		var pathNodes = new Dictionary<GraphNode<Waypoint>, SearchNode<Waypoint>>();
+		var searchNodes = new Dictionary<GraphNode<Waypoint>, SearchNode<Waypoint>>();
 
 		// Save references to the start and end graph nodes in variables
 		GraphNode<Waypoint> startNode = graph.Find(start);
@@ -197,7 +197,7 @@ public class Traveler : MonoBehaviour
 			searchList.Add(searchNode);
 
 			// Add the search node to the dictionary keyed by the graph node
-			pathNodes.Add(node, searchNode);
+			searchNodes.Add(node, searchNode);
 		}
 
 		// While the search list isn't empty
@@ -217,7 +217,7 @@ public class Traveler : MonoBehaviour
 
 			// Remove the search node from the dictionary (because it's no
 			// longer in the search list)
-			pathNodes.Remove(currentGraphNode);
+			searchNodes.Remove(currentGraphNode);
 
 			// If the current graph node is the end node
 			if (currentGraphNode == endNode)
@@ -242,7 +242,7 @@ public class Traveler : MonoBehaviour
 			{
 				// If the neighbor is still in the search list (use the
 				// dictionary to check this)
-				if (pathNodes.ContainsKey(neighbor))
+				if (searchNodes.ContainsKey(neighbor))
 				{
 					// Save the distance for the current graph node + the weight
 					// of the edge from the current graph node to the current
@@ -251,7 +251,7 @@ public class Traveler : MonoBehaviour
 
 					// Retrieve the neighor search node from the dictionary
 					// using the neighbor graph node
-					var neighborSearchNode = pathNodes[neighbor];
+					var neighborSearchNode = searchNodes[neighbor];
 
 					// If the distance you just calculated is less than the
 					// current distance for the neighbor search node

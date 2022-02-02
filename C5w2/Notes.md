@@ -21,7 +21,7 @@
     - [PreviousPathNode](#previouspathnode)
     - [GraphPathFinder](#graphpathfinder)
     - [Breadth-First Search And Depth-First Search](#breadth-first-search-and-depth-first-search)
-    
+
 ## Linked List
 The idea behind linked list is that rather than having a random access data structure like an array, we have nodes linked with each other using reference to the next node, which is called a **Singly Linked List**. If there is also a reference to the previous node then it is called a **Doubly Linked List**.
 
@@ -672,3 +672,19 @@ Now if we were using breadth-first then let's go back when we had `4` and now we
   - Is `1` our target `1`? Yes! Now we've finished searching.
 
 The important thing to note with these examples is how breadth-first and depth-first affect the search linked list. Also, this example **DOES NOT** reflect how the compiler will actually perform the algorithm, rather, how it might look like.
+
+## Weighted Graph
+There are two ways to implement a weighted graph: either have each node a list of weights/distances **or** create a new `WeightedGraphEdge` class then have the `Graph` class a list of these weighted edges, hence, removing the list of neighbors inside `GraphNode`.
+
+The instructor did the former while, as a challenge for myself, I did the latter: implementing the weighted edge class.
+
+You can go and check the Exercise7 folder in the Projects folder to check how I did it.
+
+## Dijkstra Path Finding
+This is pretty confusing at first but it's like the _"next level"_ of the breath-first and depth-first search algorithms.
+
+One video that helped me out is Computerphile's [Dijkstra's Algorithm](https://www.youtube.com/watch?v=GazC3A4OQTE) video. It explains there how Dijkstra algorithm works, hence, it is a **MUST** watch to be able to understand this algorithm and also **to be able** to complete the Programming Assignment in this week.
+
+By the way, I adjusted the Dijkstra algorithm from the programming assignment to support the graph edge class. Which, thankfully, was not that hard to do. That implementation I did is on Exercise7 folder then Graphs folder then to PathFinding folder then to Dijkstra folder.
+
+> A side note, the Exercise7 folder I made has nothing to do with Exercise7 from the instructor. I really made everything there from the ground up.
