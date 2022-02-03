@@ -527,3 +527,5 @@ Learned about **linked list** and **graphs**, and also, how to implement them fr
 It is **highly advisable** to check the `Notes.md` in this week's folder to learn more about the implementation of said learned things since I took my sweet time writing those notes. (2 hours to be exact)
 
 Also check the projects folders and study the code for better comprehension.
+
+During the programming assignment, I learned about **weighted graphs**, **Dijkstra algorithm**, and their implementations. Also learned to make my own **sorted linked list** class which inherits from `System.Collections.Generic` `LinkedList`.
