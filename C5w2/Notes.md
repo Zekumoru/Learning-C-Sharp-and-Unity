@@ -22,6 +22,10 @@
     - [GraphPathFinder](#graphpathfinder)
     - [Breadth-First Search And Depth-First Search](#breadth-first-search-and-depth-first-search)
 
+[Weighted Graph](#weighted-graph)
+
+[Dijkstra Path Finding](#dijkstra-path-finding)
+
 ## Linked List
 The idea behind linked list is that rather than having a random access data structure like an array, we have nodes linked with each other using reference to the next node, which is called a **Singly Linked List**. If there is also a reference to the previous node then it is called a **Doubly Linked List**.
 

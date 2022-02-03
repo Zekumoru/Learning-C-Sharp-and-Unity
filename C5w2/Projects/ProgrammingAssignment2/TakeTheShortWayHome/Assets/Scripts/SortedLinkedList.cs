@@ -52,13 +52,34 @@ public class SortedLinkedList<T> : LinkedList<T> where T:IComparable
     /// </summary>
     public void Reposition(T item)
     {
-        LinkedListNode<T> itemToSort = Find(item);
+        if (item == null) return;
 
-        // check if it has the item
-        if (itemToSort == null) return;
+        LinkedListNode<T> currentNode = First;
+        if (currentNode == null) return;
 
-        Remove(itemToSort);
-        Add(item);
+        T current;
+        LinkedListNode<T> previousNode;
+        while (currentNode != null)
+        {
+            if (currentNode == First)
+            {
+                currentNode = currentNode.Next;
+                continue;
+            }
+
+            current = currentNode.Value;
+            previousNode = currentNode.Previous;
+            if (current.Equals(item) && previousNode.Value.CompareTo(item) > 0)
+            {
+                AddBefore(previousNode, new LinkedListNode<T>(current));
+                Remove(currentNode);
+                currentNode = previousNode.Previous;
+            }
+            else
+            {
+                currentNode = currentNode.Next;
+            }
+        }
     }
 
     #endregion
